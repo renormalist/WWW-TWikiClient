@@ -1,0 +1,17 @@
+---
+name: WWW-TWikiClient
+version: 0.10
+author: ~
+abstract: ~
+license: perl
+requires:
+  Class::MethodMaker: 0
+  WWW::Mechanize: 0
+  perl: 5.6.1
+build_requires:
+  Test::More: 0
+provides:
+  WWW::TWikiClient:
+    file: lib/WWW/TWikiClient.pm
+    version: 0.10
+generated_by: Module::Build version 0.2611

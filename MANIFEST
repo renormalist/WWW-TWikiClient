@@ -11,3 +11,4 @@ META.yml
 README
 t/distribution.t
 t/pod-coverage.t
+Makefile.PL
