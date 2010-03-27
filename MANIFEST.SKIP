@@ -10,7 +10,7 @@ TODO
 CVS
 .svn
 .svnignore
-^Makefile$
+^Makefile
 ^WWW-TWikiClient-[0-9]+\.[0-9]+$
 ^WWW-TWikiClient-[0-9]+\.[0-9]+\.tar\.gz$
 ^cover_db/.*
