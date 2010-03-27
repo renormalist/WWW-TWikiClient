@@ -1,7 +1,7 @@
 ---
 abstract: 'WWW::Mechanize-based client to access a TWiki.'
 author:
-  - 'Steffen Schwigon <<ss5@renormalist.net>>'
+  - 'Steffen Schwigon <schwigon@cpan.org>'
 build_requires:
   Test::More: 0
 configure_requires:
@@ -21,7 +21,5 @@ requires:
   WWW::Mechanize: 0
   perl: v5.6.1
 resources:
-  bugtracker: http://rt.cpan.org/NoAuth/ReportBug.html?Queue=WWW-TWikiClient
   license: http://dev.perl.org/licenses/
-  repository: git://github.com/renormalist/WWW-TWikiClient.git
-version: 0.10
+version: 0.11
