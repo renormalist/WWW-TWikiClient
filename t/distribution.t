@@ -3,10 +3,10 @@
 use strict;
 use Test::More;
 
-if ($ENV{TEST_DIST}) {
-  eval "use Test::Distribution";
-  plan skip_all => "Test::Distribution required for checking distribution" if $@;
+if ($ENV{AUTOMATED_TESTING} or $ENV{RELEASE_TESTING}) {
+        eval "use Test::Distribution";
+        plan skip_all => "Test::Distribution required for checking distribution" if $@;
 } else {
-  print STDERR 
-  plan skip_all => 'Test::Distribution skipped. Set TEST_DIST to enable this test.';
+        plan skip_all => "Author tests not required for installation";
 }
+

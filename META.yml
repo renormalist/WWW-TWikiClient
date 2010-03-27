@@ -1,17 +1,27 @@
 ---
-name: WWW-TWikiClient
-version: 0.10
-author: ~
-abstract: ~
-license: perl
-requires:
-  Class::MethodMaker: 0
-  WWW::Mechanize: 0
-  perl: 5.6.1
+abstract: 'WWW::Mechanize-based client to access a TWiki.'
+author:
+  - 'Steffen Schwigon <<ss5@renormalist.net>>'
 build_requires:
   Test::More: 0
+configure_requires:
+  Module::Build: 0.36
+generated_by: 'Module::Build version 0.3603'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: WWW-TWikiClient
 provides:
   WWW::TWikiClient:
     file: lib/WWW/TWikiClient.pm
-    version: 0.10
-generated_by: Module::Build version 0.2611
+    version: 0.11
+requires:
+  Class::MethodMaker: 0
+  WWW::Mechanize: 0
+  perl: v5.6.1
+resources:
+  bugtracker: http://rt.cpan.org/NoAuth/ReportBug.html?Queue=WWW-TWikiClient
+  license: http://dev.perl.org/licenses/
+  repository: git://github.com/renormalist/WWW-TWikiClient.git
+version: 0.10
